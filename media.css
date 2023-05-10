@@ -1,0 +1,277 @@
+@media (max-width:1024px) {
+    .center {
+    padding-left: calc(50% - 367px);
+    padding-right: calc(50% - 367px);
+    }
+    }
+    
+    @media (max-width:768px) {
+    .center {
+    padding-left: calc(50% - 172px);
+    padding-right: calc(50% - 172px);
+    }
+    }
+    
+@media (max-width:1135px) and (min-width:767px) {
+    .center-header {
+        width: 424px;
+    }
+
+    .top-content h1 {
+        font-size: 44px;
+        line-height: 53px;
+    }
+
+    .top-content h2 {
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .preview-cards {
+        -ms-grid-columns: 232px 19px 232px 19px 232px;
+        grid-template-columns: repeat(3, 232px);
+        gap: 19px;
+    }
+
+    .prev-card-1 h2 {
+        left: 87px;
+        top: 72px;
+    }
+
+    .prev-card-1 h1 {
+        left: 42px;
+        top: 94px;
+        width: 155px;
+    }
+
+    .prev-card-2 h2 {
+        position: absolute;
+        left: 90px;
+        top: 72px;
+    }
+
+    .prev-card-2 h1 {
+        left: 72px;
+        top: 94px;
+    }
+
+    .prev-card-3 h2 {
+        left: 62px;
+        top: 75px;
+    }
+
+    .prev-card-3 h1 {
+        position: absolute;
+        left: 65px;
+        top: 94px;
+    }
+
+    .prev-card-big h2 {
+        left: 294px;
+        top: 40px;
+    }
+
+    .prev-card-big h1 {
+        left: 296px;
+        top: 61px;
+    }
+
+    .catalog {
+        margin-top: 110px;
+    }
+
+    .catalog h4 {
+        margin-top: 3px;
+    }
+
+    .catalog-cards {
+        margin-top: 73px;
+        grid-template-columns: repeat(2, 360px);
+        gap: 16px;
+    }
+
+    .advantages {
+        grid-template-columns: repeat(1, 300px);
+        gap: 48px;
+        padding-top: 48px;
+        padding-bottom: 64px;
+    }
+
+    .feedback {
+        padding-top: 64px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        gap: 93px;
+        height: 693px;
+    }
+
+    .fb-left img {
+        margin-top: 0;
+    }
+
+    .fb-right {
+        margin-top: 0;
+    }
+
+    .fb-right h2 {
+        padding-top: 15px;
+    }
+
+    .email-form {
+        margin-top: 20px;
+    }
+
+    .center-footer {
+        width: 305px;
+    }
+}
+
+@media (max-width:767px) and (min-width:320px) {
+
+    header {
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+    }
+
+    .center-header {
+        display: none;
+    }
+
+    .top-content {
+        height: 363px;
+        justify-content: center;
+    }
+
+    .top-content img {
+        display: none;
+    }
+
+    .top-content h1 {
+        font-size: 38px;
+        line-height: 46px;
+    }
+
+    .top-content h2 {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .right-logo-no-mobile {
+        display: none;
+    }
+
+    .preview-cards {
+        grid-template-columns: repeat(1, 343px);
+    }
+
+    .prev-card-big {
+        display: none;
+    }
+
+    .prev-card-1 h2 {
+        left: 141px;
+        top: 106px;
+    }
+
+    .prev-card-1 h1 {
+        left: 100px;
+        top: 126px;
+    }
+
+    .prev-card-big-mobile {
+        position: relative;
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background: rgba(33, 22, 22, 0.7);
+    }
+
+    .text {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        background: rgba(33, 22, 22, 0.7);
+    }
+
+    .text h2 {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+    }
+
+    .text h1 {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+        color: #F16D7F;
+    }
+
+    .catalog {
+        margin-top: 64px;
+    }
+
+    .catalog-cards {
+        margin-top: 64px;
+        grid-template-columns: repeat(1, 360px);
+    }
+
+    .advantages {
+        grid-template-columns: repeat(1, 300px);
+        gap: 48px;
+        padding-top: 48px;
+        padding-bottom: 64px;
+    }
+
+    .feedback {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        height: 550px;
+    }
+
+    .fb-left img {
+        margin-top: 0;
+    }
+
+    .fb-right {
+
+        margin-top: 0;
+    }
+
+    footer {
+        padding-top: 43px;
+        flex-direction: column-reverse;
+        gap: 40px;
+        padding-bottom: 9px;
+    }
+
+    .center-footer {
+        display: none;
+    }
+}
+
+@media (max-width:390px) {
+    .fb-left {
+        width: 320px;
+    }
+
+    .email-form input {
+
+        width: 180px;
+    }
+
+    .fb-right h2 {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 153.2%;
+    }
+}

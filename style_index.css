@@ -1,0 +1,37 @@
+.left-logo svg:hover path {
+    fill: #F16D7F;
+}
+
+.right-logo svg:hover path {
+    fill: #F16D7F;
+}
+
+.header-menu a:hover {
+    text-decoration: underline;
+}
+
+.advantages svg:hover path {
+    fill: aqua;
+}
+
+.right-ft :hover {
+    background: #F16D7F;
+}
+
+.right-ft :hover path {
+    fill: #ffffff;
+}
+
+.catalog button:hover {
+    color: #fff;
+    background-color: #FF6A6A;
+}
+
+.cat-card:hover .add-to-cart {
+    display: flex;
+    background: rgba(58, 56, 56, 0.86);
+}
+
+.mobile-menu a:hover {
+    text-decoration: underline;
+}
