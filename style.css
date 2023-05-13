@@ -12,17 +12,18 @@ body {
     padding-right: calc(50% - 585px);
   }
 
-.header {
+.top{
     position: relative;
     overflow: hidden;
+}
+
+.header {
     min-height: 75px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background: #222222;
 }
-
-
 
 .left-logo {
     display: flex;
@@ -55,7 +56,7 @@ header svg path {
     flex-direction: column;
     padding-left: 33px;
     position: absolute;
-    right: -100%;
+    right: 0;
     background-color: #fff;
     width: 232px;
     z-index: 1;
@@ -64,12 +65,26 @@ header svg path {
     display: none;
 }
 
+@keyframes slide-in-right {
+    0% {
+    -webkit-transform: translateX(1000px);
+    transform: translateX(1000px);
+    opacity: 0;
+    }
+    100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+    }
+    }
+
 .check {
     display: none;
 }
 
 .check:checked~.mobile-menu {
-    display: block;
+    display:inline-block;
+    animation: slide-in-right 1s ease-out both;
     right: 0;
     top: 75px;
 }
